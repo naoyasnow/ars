@@ -22,7 +22,7 @@ export default function WorkDetail({
 
              {/* Gallery wall */}
             <img
-                src="/images/gallery_wall.png"
+                src="/ars/images/gallery_wall.png"
                 alt=""
                 className="absolute inset-0 h-full w-full object-cover"
             />
