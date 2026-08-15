@@ -1,6 +1,10 @@
 "use client";
 
+import { useRouter } from "next/navigation";
+
 export default function Window() {
+  const router = useRouter();
+
   return (
     <div className="relative">
 
@@ -17,7 +21,7 @@ export default function Window() {
         alt="Enter"
         className="h-[30vh] w-auto max-w-[50vw] cursor-pointer object-contain"
         onClick={() => {
-          window.location.href = "/main";
+          router.push("/main");
         }}
       />
 
