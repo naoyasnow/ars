@@ -9,15 +9,15 @@ export default function Window() {
     <div className="relative">
 
       {/* copy */}
-      <div className="pointer-events-none absolute left-[+1vh] top-[22vh] -rotate-[60deg] origin-left whitespace-nowrap">
+      <div className="pointer-events-none absolute left-[-3vh] top-[20vh] -rotate-[60deg] origin-left whitespace-nowrap">
         <span className="text-s font-medium tracking-[0.2em] text-black">
-          まだ見ぬ景色に出会う窓。
+          　まだ見ぬ景色に出会う窓。
         </span>
       </div>
 
       {/* window */}
       <img
-        src="/images/tri_window_test.png"
+        src="/ars/images/tri_window_test.png"
         alt="Enter"
         className="h-[30vh] w-auto max-w-[50vw] cursor-pointer object-contain"
         onClick={() => {

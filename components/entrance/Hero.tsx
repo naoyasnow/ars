@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Window from "./Window";
 
 export default function Hero() {
@@ -5,10 +6,11 @@ export default function Hero() {
     <section className="relative h-screen overflow-hidden">
 
       {/* background image */}
-      <img
-        src="/images/museum_wall.png"
+      <Image
+        src="/ars/images/museum_wall.png"
         alt=""
-        className="absolute inset-0 h-full w-full object-cover"
+        fill
+        className="object-cover"
       />
 
       {/* window */}
