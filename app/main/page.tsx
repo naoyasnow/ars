@@ -10,7 +10,7 @@ export default function Main() {
         {/* Main background */}
 
         <img
-            src="/images/museum.png"
+            src="/ars/images/museum.png"
             alt=""
             className="fixed inset-0 -z-10 h-full w-full object-cover object-[38%_center]"
         />
@@ -118,7 +118,7 @@ export default function Main() {
 
             {/* Gallery background */}
             <img
-                src="/images/gallery.png"
+                src="/ars/images/gallery.png"
                 alt=""
                 className="absolute inset-0 h-full w-full object-cover object-center"
             />
