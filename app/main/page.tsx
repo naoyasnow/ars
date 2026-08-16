@@ -12,7 +12,7 @@ export default function Main() {
         <img
             src="/ars/images/museum.png"
             alt=""
-            className="fixed inset-0 -z-10 h-full w-full object-cover object-[38%_center]"
+            className="fixed inset-0 -z-10 h-[100dvh] w-full object-cover object-[38%_center]"
         />
 
         {/* Header */}
@@ -52,25 +52,25 @@ export default function Main() {
 
         <section
         id="top"
-        className="relative flex min-h-[calc(100vh-80px)] items-center justify-center"
+        className="relative flex min-h-[calc(100dvh-80px)] items-center justify-center"
         >
 
         <div className="text-center">
-            <p className="text-6xl font-bold tracking-[0.2em] md:text-8xl">
+            <p className="mt-20 text-4xl font-bold tracking-[0.2em] md:text-8xl">
                 アリス
             </p>
 
-            <p className="mt-18 text-lg tracking-[0.25em] md:text-2xl">
+            <p className="mt-18 text-base tracking-[0.18em] md:text-2xl">
                 まだ見ぬ景色に出会う窓。
             </p>
 
-            <p className="mt-24 text-sm tracking-[0.3em] text-gray-700 px-[clamp(24px,calc(24px+10vw),120px)] md:text-[16px]">
+            <p className="mt-18 text-xs tracking-[0.15em] leading-loose text-gray-700 px-10 md:px-12 md:text-[16px]">
                 社会・組織・個人。さまざまなスコープで<br/>
                 「人」や「つながり」を探求する。<br/>
                 学び・遊びながら、新しい視点を共有し、<br/>
                 もっと多様な景色を心の中に見つける。<br/>
-                それが、アリスです。<br/><br/>
-                一緒に、"窓"をひとつ 開けてみましょう。
+                それが、アリスです。<br/><br/><br/>
+                一緒に、"窓"を 開けてみましょう。
             </p>
           
         </div>
