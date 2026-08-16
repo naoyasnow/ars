@@ -12,7 +12,7 @@ export default function Main() {
         <img
             src="/ars/images/museum.png"
             alt=""
-            className="fixed inset-0 -z-10 h-[100dvh] w-full object-cover object-[38%_center]"
+            className="absolute inset-0 -z-10 h-full w-full object-cover object-[38%_center]"
         />
 
         {/* Header */}
@@ -25,7 +25,7 @@ export default function Main() {
                 アリス
             </a>
 
-            <nav className="flex gap-6 text-xs tracking-widest">
+            <nav className="flex gap-4 text-xs tracking-widest">
                 <a
                 href="#about"
                 className="transition-opacity duration-300 hover:opacity-50"
@@ -69,8 +69,8 @@ export default function Main() {
                 「人」や「つながり」を探求する。<br/>
                 学び・遊びながら、新しい視点を共有し、<br/>
                 もっと多様な景色を心の中に見つける。<br/>
-                それが、アリスです。<br/><br/><br/>
-                一緒に、"窓"を 開けてみましょう。
+                それが、アリスです。<br/><br/>
+                一緒に、新しい "窓" を開けましょう。
             </p>
           
         </div>

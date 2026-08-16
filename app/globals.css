@@ -34,11 +34,11 @@ html {
 }
 
 .gallery-scroll::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.16);
 }
 
 .gallery-scroll::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(255, 255, 255, 0.35);
 }
 
 .font-dm-mono {
