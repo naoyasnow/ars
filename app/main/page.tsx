@@ -12,7 +12,7 @@ export default function Main() {
         <img
             src="/ars/images/museum.png"
             alt=""
-            className="absolute inset-0 -z-10 h-full w-full object-cover object-[38%_center]"
+            className="absolute inset-0 -z-10 h-[100dvh] w-full object-cover object-[38%_center]"
         />
 
         {/* Header */}
