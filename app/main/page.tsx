@@ -5,14 +5,14 @@ import { works } from "@/components/works";
 
 export default function Main() {
   return (
-    <main className="relative min-h-screen">
+    <main className="relative min-h-[100dvh]">
       
         {/* Main background */}
 
         <img
             src="/ars/images/museum.png"
             alt=""
-            className="absolute inset-0 -z-10 h-[100dvh] w-full object-cover object-[38%_center]"
+            className="absolute fixed inset-0 -z-10 h-[calc(110dvh-80px)] w-full object-cover object-[38%_center]"
         />
 
         {/* Header */}
@@ -56,11 +56,11 @@ export default function Main() {
         >
 
         <div className="text-center">
-            <p className="mt-20 text-4xl font-bold tracking-[0.2em] md:text-8xl">
+            <p className="mt-20 text-4xl font-bold tracking-[0.2em] md:text-7xl">
                 アリス
             </p>
 
-            <p className="mt-18 text-base tracking-[0.18em] md:text-2xl">
+            <p className="mt-18 text-base tracking-[0.18em] md:text-xl">
                 まだ見ぬ景色に出会う窓。
             </p>
 
@@ -181,24 +181,32 @@ export default function Main() {
 
         <section
         id="contact"
-        className="scroll-mt-17 flex min-h-screen items-center justify-center border-t border-black/10 px-8"
+        className="relative scroll-mt-17 flex aspect-[16/9] items-center justify-center overflow-hidden border-t border-black/10 px-8"
         >
+
+        {/* Contact background */}
+        <img
+            src="/ars/images/museum.png"
+            alt=""
+            className="absolute inset-0 -z-10 h-auto w-full object-cover object-center"
+        />
+
         <div className="text-center">
-        <p className="text-lg tracking-[0.0em] text-gray-600 md:text-2xl font-dm-mono">
+        <p className="text-sm tracking-[0.0em] text-gray-600 md:text-2xl font-dm-mono">
             naoyasnow
         </p>
 
-        <h2 className="mt-6 text-3xl font-light tracking-wide">
+        <h2 className="mt-0 text-3xl font-light tracking-wide">
             {/*Let&apos;s talk. */}
         </h2>
 
-        <p className="mt-4 text-sm text-gray-600">
+        <p className="mt-0 text-sm text-gray-600">
             {/*Feel free to get in touch.*/}
         </p>
 
         <a
             href="https://naoyasnow.github.io/hub/"
-            className="mt-8 inline-block border border-black px-6 py-2 text-sm tracking-[0.3em] transition hover:bg-black hover:text-white md:text-md"
+            className="mt-4 inline-block border border-black px-6 py-2 text-xs tracking-[0.3em] transition hover:bg-black hover:text-white md:text-md md:mt-12"
         >
             CONTACT
         </a>
